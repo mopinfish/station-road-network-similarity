@@ -22,7 +22,7 @@
     },
     "SOURCE_NOTICES.md": {
       "bytes": 3948,
-      "sha256": "6756c0c3e595e481d1851afeaec49fbfb22cd21e52aafa4734bd3fa0a4c44474"
+      "sha256": "2f9f03d8c8331be2a90d1234484a1a4a82b1a7c3d8b39c48d6afd3b2d0a14179"
     },
     "data/supplement/park_area_decisions.json": {
       "bytes": 499,
@@ -42,5 +42,5 @@
     }
   },
   "path_base": "repository_root",
-  "release": "paper1-v0.1.0"
+  "release": "paper1-v0.1.1"
 }

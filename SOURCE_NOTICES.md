@@ -1,6 +1,6 @@
 # Source notices and distribution conditions
 
-Release paper1-v0.1.0, dated 2026-11-16. These notices apply to the selected data distributed with this release.
+Release paper1-v0.1.1, dated 2026-11-16. These notices apply to the selected data distributed with this release.
 
 Author-created software, tests and technical documentation are licensed under MIT in the accompanying repository. That license does not replace the conditions of research data or third-party contents. Copyright in these new technical descriptions: Noboru Otsuka.
 

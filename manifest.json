@@ -8,21 +8,25 @@
     "third_party_contents": "Original station and TMU conditions preserved; see DATA_LICENSE.md and SOURCE_NOTICES.md"
   },
   "files": {
+    ".gitattributes": {
+      "bytes": 70,
+      "sha256": "20457f7b8f12ad0f24044d26c00c6c9ce552d64ef8611017d0eada28cf960207"
+    },
     ".gitignore": {
       "bytes": 44,
       "sha256": "a78010f773750b7d6568debfc62d2d27df9ae1810c003b34de94a8f04359f6a1"
     },
     "CHANGELOG.md": {
-      "bytes": 725,
-      "sha256": "c22b6ec051354ecc722a99efd4490c7541830f7cad04a0a7f61b4fcf2bc2d6fd"
+      "bytes": 1123,
+      "sha256": "b65806997123e1723ce6cd3055b8f37dc083d1fafd244a0eae3826eefc95b3af"
     },
     "CITATION.cff": {
       "bytes": 753,
-      "sha256": "98cb53b919cc77adc5eeb03000325913606f2e12ea582f7b36dd123a4dfa1e61"
+      "sha256": "1480494f377876fe50c08843ac751a4029f5f33efcde152cdc4227dd8cc5124b"
     },
     "DATA_AVAILABILITY.md": {
       "bytes": 4619,
-      "sha256": "37f598c12dab2ecff9927a08226e1716dc113785a5019228a90517d28eca557e"
+      "sha256": "bcaf9a9c5c5dd4617401d5d5cec86a84aa4e819843f6f12beed8ac397cde128a"
     },
     "DATA_LICENSE.md": {
       "bytes": 3035,
@@ -42,11 +46,11 @@
     },
     "README.md": {
       "bytes": 8982,
-      "sha256": "dc6cddda02a8b63794a6ed0ddb6d29b927144180b2039caf20ddfa94ff026056"
+      "sha256": "4922a32995f5b48da36928f7c6a049853aff9f8756d5ffff648a305ae748390c"
     },
     "SOURCE_NOTICES.md": {
       "bytes": 3948,
-      "sha256": "6756c0c3e595e481d1851afeaec49fbfb22cd21e52aafa4734bd3fa0a4c44474"
+      "sha256": "2f9f03d8c8331be2a90d1234484a1a4a82b1a7c3d8b39c48d6afd3b2d0a14179"
     },
     "UPDATING.md": {
       "bytes": 2230,
@@ -266,7 +270,7 @@
     },
     "data/supplement/manifest.json": {
       "bytes": 1889,
-      "sha256": "d150f5bbfe99dceb31c737bb7f89b12db4e6f1f5151774e0a8a98515ffce490e"
+      "sha256": "e0fbbb10763a44071faadf2124890da0e2b56b6856cbc55df705d846017eaff7"
     },
     "data/supplement/park_area_decisions.json": {
       "bytes": 499,
@@ -325,6 +329,6 @@
       "sha256": "7e0ba044e57fb057511854bcfdfb0f9e8f8bc046df0928ae7c6f2712d4e1917b"
     }
   },
-  "version": "paper1-v0.1.0",
+  "version": "paper1-v0.1.1",
   "repository": "https://github.com/mopinfish/station-road-network-similarity"
 }

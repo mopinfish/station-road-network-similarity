@@ -43,7 +43,7 @@ Verification requires exact identifiers/counts and the predetermined continuous 
 
 See `DATA_AVAILABILITY.md` for origins and source conditions, `manifest.json` for this release's file hashes, and `UPDATING.md` for release maintenance. This release contains no private repository history, correspondence, manuscript drafts or original OSM history. The initial reproduction starts after road measurement; it must not be described as end-to-end reproduction from raw OSM.
 
-See `VERIFICATION.md` for completed checks and their limits. The fixed software release is [paper1-v0.1.0](https://github.com/mopinfish/station-road-network-similarity/releases/tag/paper1-v0.1.0).
+See `VERIFICATION.md` for completed checks and their limits. The fixed software release is [paper1-v0.1.1](https://github.com/mopinfish/station-road-network-similarity/releases/tag/paper1-v0.1.1).
 
 ## Input organization
 

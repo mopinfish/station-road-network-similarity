@@ -1,6 +1,6 @@
 # Data availability and provenance
 
-Selected derived tables and fixed numerical inputs are distributed in [paper1-v0.1.0](https://github.com/mopinfish/station-road-network-similarity/releases/tag/paper1-v0.1.0). The original software and accompanying technical documentation use MIT (see `LICENSING.md`); the data terms and independently identified source conditions are set out in `DATA_LICENSE.md` and `SOURCE_NOTICES.md`.
+Selected derived tables and fixed numerical inputs are distributed in [paper1-v0.1.1](https://github.com/mopinfish/station-road-network-similarity/releases/tag/paper1-v0.1.1). The original software and accompanying technical documentation use MIT (see `LICENSING.md`); the data terms and independently identified source conditions are set out in `DATA_LICENSE.md` and `SOURCE_NOTICES.md`.
 
 ## Sources behind the saved indicators
 
