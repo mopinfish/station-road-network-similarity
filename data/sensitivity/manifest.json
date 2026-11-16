@@ -1,0 +1,117 @@
+{
+  "format": "paper1-sensitivity-input-v1",
+  "files": {
+    "distances.tsv": {
+      "bytes": 6667168,
+      "sha256": "993603ddccf9a52e78b23f908f7115ad6e8a13e0312422fb3bfb4addc1a2288f"
+    },
+    "dominance.tsv": {
+      "bytes": 34510,
+      "sha256": "cd6a7c4eb3630ed202bea7dec43a33bf72ae6fd3989473feb2ad1ebe9f9ce889"
+    },
+    "expected/clip_stations.tsv": {
+      "bytes": 199829,
+      "sha256": "a8a58695ed1c73b20e5632476f7286209097e0e25b6ca9c655dad02f86751134"
+    },
+    "expected/clip_summary.tsv": {
+      "bytes": 2171,
+      "sha256": "21f95007751e9961c49403e19ff492b343038bfa1fd1708f3143f6ce5c23854b"
+    },
+    "expected/dominance_before.tsv": {
+      "bytes": 73807,
+      "sha256": "bcd2d6b3837f2a5ba83fcd74edf20bf475e416d71bea4ec7815e7406ae245057"
+    },
+    "expected/dominance_bins_after.tsv": {
+      "bytes": 803,
+      "sha256": "54e3f8b18eb0f81e27eb7e1177b162243d28a7d5a6471ca3f1e8e397bbdbeb7d"
+    },
+    "expected/dominance_bins_before.tsv": {
+      "bytes": 203,
+      "sha256": "15b68e6c7879f64ed448f857a4d0c973ac051e61bda516204cf36960e37e75b1"
+    },
+    "expected/dominance_features_before.tsv": {
+      "bytes": 1641,
+      "sha256": "8ea4737b0ae427ec7b235e2de76ac7d0dbde2f2cb0a1182c93add53b77c6e57e"
+    },
+    "expected/norm_overlap.tsv": {
+      "bytes": 310,
+      "sha256": "9957e8bfab4b22201320bd49f042296d6860de01ac9c20a35bf860e3bfc05427"
+    },
+    "expected/park_r4.json": {
+      "bytes": 394064,
+      "sha256": "5e67d6bce75cd35cd073bf6e2521154bea73bc9daf8f620c4c270ecc483a941f"
+    },
+    "expected/park_stations.tsv": {
+      "bytes": 719581,
+      "sha256": "1857b7975084b4b2af00e07c8438da633184db666c215f143ee51ba4943b5a6f"
+    },
+    "expected/park_summary.json": {
+      "bytes": 3961,
+      "sha256": "1049e503b6fecc12d92ff81479375d66996d75caba9fdc46cde2075eda8c8406"
+    },
+    "expected/park_value.json": {
+      "bytes": 23290,
+      "sha256": "b6103c696601cf8b1c101a6f4309cce665e782df86a33a0c4ac18b27146a990f"
+    },
+    "expected/range_stations.tsv": {
+      "bytes": 156991,
+      "sha256": "2817c0aac7597fb21973dc0ebcef08ad3b044db5e031b886b78197b147352a1c"
+    },
+    "expected/range_summary.tsv": {
+      "bytes": 786,
+      "sha256": "c0dea384a8d875b6b5c25731ac22dde3b0bce30994e5e94af0133da51060b1e3"
+    },
+    "expected/s3_comparisons.tsv": {
+      "bytes": 4145,
+      "sha256": "477d598d5932998a48330bab6b45edfb93b8c82552b88d8ca396f5ce914ed3ea"
+    },
+    "expected/s3_stations.tsv": {
+      "bytes": 3440143,
+      "sha256": "aff5e415427c6f6d70bf885151d9cab5298d9ebe265f62615160440d68260912"
+    },
+    "expected/s3_summary.tsv": {
+      "bytes": 15101,
+      "sha256": "d1b6b95e5a228333eb50afdf5f040f58c679fce1afc08aaed71ac9f2745bce0f"
+    },
+    "expected/scale_stations.tsv": {
+      "bytes": 594690,
+      "sha256": "25f083995bb9675649e4b65e674100c2df5e37de82d186768ca74de96e780daa"
+    },
+    "expected/scale_summary.tsv": {
+      "bytes": 1903,
+      "sha256": "497dacaf6feeea78801b9e52d36466a02b91ef0dfab0a552062c3ea72cafd569"
+    },
+    "features_1000.tsv": {
+      "bytes": 97303,
+      "sha256": "e1032d6ea80862c99464775e0d3c8287b04b4490a57b881874c48a7bf6ab93ec"
+    },
+    "features_600.tsv": {
+      "bytes": 93255,
+      "sha256": "d6514a1ed4f8ea1992623bcfeea63f73b6e8c39033397fd3e9995fe1970687f2"
+    },
+    "features_800.tsv": {
+      "bytes": 95547,
+      "sha256": "3af8f43b56bef8c007b0fb3cdda7a4cd45120c8fc314fa68fd491d9b41bded39"
+    },
+    "park_base.tsv": {
+      "bytes": 94516,
+      "sha256": "affe84a8cfe11cb0455184ed269590ecede4b1736a134d010f268947ed580fe4"
+    },
+    "park_plus_undetermined.tsv": {
+      "bytes": 94244,
+      "sha256": "a6da4394964146efb6eb78d3a11b6d86b43603309e8525c07d04a9d363cef6ec"
+    },
+    "settings.json": {
+      "bytes": 78442,
+      "sha256": "2bbadcc8180e70b56e440d6dbe0a9ac1386dff6dbb9525a84c9eedf3587fe284"
+    },
+    "expected/table_cells.json": {
+      "bytes": 5309,
+      "sha256": "29eceff7fca5beb1229179e2e5ae7d3c72b90b65704a44cbd4193f07d8062071"
+    },
+    "expected/candidate_ids.json": {
+      "bytes": 13795842,
+      "sha256": "2c68a24b9f86f29628486e049d7f113de77f9a556fdaab7480051da0c618cbdd"
+    }
+  }
+}

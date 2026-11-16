@@ -1,0 +1,80 @@
+{
+ "all": {
+  "common_repeat_count": 20,
+  "common_rmse_median": {
+   "exponential": 0.4215181158971362,
+   "linear": 0.42541365580936497,
+   "logarithmic": 0.4215825492938828,
+   "power": 0.42134806374418327
+  },
+  "common_seeds": [
+   3000,
+   3001,
+   3002,
+   3003,
+   3004,
+   3005,
+   3006,
+   3007,
+   3008,
+   3009,
+   3010,
+   3011,
+   3012,
+   3013,
+   3014,
+   3015,
+   3016,
+   3017,
+   3018,
+   3019
+  ],
+  "equivalence_ratio": 1.01,
+  "equivalent_models": [
+   "linear",
+   "exponential",
+   "power",
+   "logarithmic"
+  ],
+  "selected_model": "power"
+ },
+ "far": {
+  "common_repeat_count": 20,
+  "common_rmse_median": {
+   "exponential": 0.42168271301289073,
+   "linear": 0.4246232200249903,
+   "logarithmic": 0.42187761899679493,
+   "power": 0.42168210997274325
+  },
+  "common_seeds": [
+   3000,
+   3001,
+   3002,
+   3003,
+   3004,
+   3005,
+   3006,
+   3007,
+   3008,
+   3009,
+   3010,
+   3011,
+   3012,
+   3013,
+   3014,
+   3015,
+   3016,
+   3017,
+   3018,
+   3019
+  ],
+  "equivalence_ratio": 1.01,
+  "equivalent_models": [
+   "linear",
+   "exponential",
+   "power",
+   "logarithmic"
+  ],
+  "selected_model": "power"
+ }
+}

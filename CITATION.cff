@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software in research, please cite it and the associated paper when available."
+type: software
+title: "Station Road Network Similarity"
+authors:
+  - family-names: "Otsuka"
+    given-names: "Noboru"
+    affiliation: "The University of Electro-Communications"
+license: MIT
+abstract: "Numerical reproduction of station-area road-network similarity analyses from saved indicators, distances and regional membership. The MIT license covers the software; data have separate conditions."
+version: "paper1-v0.1.0"
+date-released: "2026-11-16"
+repository-code: "https://github.com/mopinfish/station-road-network-similarity"
+url: "https://github.com/mopinfish/station-road-network-similarity/releases/tag/paper1-v0.1.0"

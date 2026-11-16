@@ -1,0 +1,20 @@
+{
+  "format": "park_area_decisions_public_v1",
+  "snapshot_sha256": "0e9906f1d9d57832ee5052e7481ca293552276e32c352bd95857436733b1ab8d",
+  "out_of_study_region": [
+    "r3600440",
+    "r7239103",
+    "r8444263",
+    "r9819967"
+  ],
+  "exclude_admin_relation": [
+    {
+      "area_id": "r3551852",
+      "retained_regular_areas": [
+        "w675408602",
+        "w576315885"
+      ]
+    }
+  ],
+  "scope": "These five adopted decisions only. All other area-incomplete classifications are unchanged."
+}

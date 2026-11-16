@@ -1,0 +1,46 @@
+{
+  "format": "saved-input-supplement-v1",
+  "status": "released",
+  "numerical_baseline_manifest_sha256": "1483652ac9888e6879b17cd60c6989b9491aa58999b687df2dc3f15a3c3a06e6",
+  "upstream_source_sha256": {
+    "park_classification": "64e4b0230d9f6ccf231c1aeef6b93f14787b709ff9c72d5d72c7a6d678665bdb",
+    "park_area_decisions": "733c69ffd5d4356a8a1c7e88eb39ef04d5f7570c644c4760a290b5ab18722369",
+    "station_groups": "9fb38a6f396cccf800c0bcf91200d455ef7ebc5a74e4f37619bf51af8672aad7",
+    "TMU_polygons": "40e73522b3d57cebac9d3b10b22b751207c342e716ea5b6f24d615c527f64d5d"
+  },
+  "row_counts": {
+    "park_classification.tsv": 1545,
+    "station_representatives.tsv": 615,
+    "tmu_land_readjustment_20231208.geojson": 69,
+    "park_area_decisions.json": 5
+  },
+  "scope": "Saved values only; no numerical module inputs or analysis changed. Paths identify repository paths.",
+  "files": {
+    "METHODS.md": {
+      "bytes": 13107,
+      "sha256": "0e92cbfa2b3f72ab6d50c816f550a9f7b1903e0b352f782aa13545f4e72c0721"
+    },
+    "SOURCE_NOTICES.md": {
+      "bytes": 3948,
+      "sha256": "6756c0c3e595e481d1851afeaec49fbfb22cd21e52aafa4734bd3fa0a4c44474"
+    },
+    "data/supplement/park_area_decisions.json": {
+      "bytes": 499,
+      "sha256": "5036c2e8319f4bc6e34e96b63f658d2285c0b6ed94ccfa3b5d81758c5cad9747"
+    },
+    "data/supplement/park_classification.tsv": {
+      "bytes": 34058,
+      "sha256": "a59293080aed892cdd9b65c4be916461a38d9f3021d3ba5b227ba407fb0f0e19"
+    },
+    "data/supplement/station_representatives.tsv": {
+      "bytes": 59679,
+      "sha256": "5f1ce4f9943f6ae219c97421faea4d32b399b6064f5e4705a0de77d012bdffac"
+    },
+    "data/supplement/tmu_land_readjustment_20231208.geojson": {
+      "bytes": 82670,
+      "sha256": "40e73522b3d57cebac9d3b10b22b751207c342e716ea5b6f24d615c527f64d5d"
+    }
+  },
+  "path_base": "repository_root",
+  "release": "paper1-v0.1.0"
+}

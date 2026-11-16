@@ -1,0 +1,22 @@
+{
+  "format": "paper1-main-input-v1",
+  "roles": {
+    "features_800.tsv": "saved indicators, compute input",
+    "candidate_registry.tsv": "scientific candidate definition, compute input",
+    "quality.tsv": "quality and holds, compute input",
+    "expected/": "immutable saved reference projection, verification only"
+  },
+  "files": {
+    "candidate_registry.tsv": "e0bddc8a379c1721980227cfbbee0cdb4bd069799842f4da374a68989bd579df",
+    "expected/results.json": "7e6c729a52faf2f622d2396a5cd4294759106d598560b47df35cb3698e4c6be1",
+    "expected/similarity_main_800.npy": "5f3ace69f91312add2ef59d9e163c68c95984c1fd4f37063f221d2b760ae5098",
+    "features_800.tsv": "0f69d9404d17ee6febf0e6c0e5860efb796fd87d8fd4343301fb058170384c03",
+    "quality.tsv": "b2d620285bab85f7737b3deb57c0b39cc73ff84fccfecdfa2b4898070571ab9b"
+  },
+  "records": {
+    "features": 615,
+    "quality": 615,
+    "candidate_registry": 39
+  },
+  "units": "Indicator names retain original units: length m, area m2, densities per ha or km2 as named; centralities, ratios and counts as named."
+}

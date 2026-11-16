@@ -1,0 +1,4 @@
+comparison_id	n	k	threshold_m	M_before	M_after_min	M_after_median	M_after_max	overlap_before_mean	overlap_before_q1	overlap_before_median	overlap_before_q3	overlap_after_mean	overlap_after_q1	overlap_after_median	overlap_after_q3	delta_mean	delta_q1	delta_median	delta_q3	delta_negative_n	delta_zero_n	delta_positive_n
+range_600_800	612	10	1600.0	611	591	606.0	611	0.3281045751633987	0.2	0.3	0.5	0.3274509803921568	0.2	0.3	0.5	-0.0006535947712418294	0.0	0.0	0.0	77	463	72
+range_800_1000	614	10	2000.0	613	587	605.0	613	0.422801302931596	0.3	0.4	0.6	0.42475570032573284	0.3	0.4	0.6	0.0019543973941368075	0.0	0.0	0.0	109	387	118
+range_600_1000	612	10	2000.0	611	585	603.0	611	0.20228758169934644	0.1	0.2	0.3	0.20522875816993463	0.1	0.2	0.3	0.0029411764705882353	0.0	0.0	0.0	85	436	91

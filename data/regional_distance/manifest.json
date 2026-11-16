@@ -1,0 +1,64 @@
+{
+  "files": {
+    "cv_station_folds.tsv": {
+      "bytes": 184215,
+      "sha256": "d9b8793ddc9cf772a01dd2f8306509582624c48b9a334bad5eba0919982438eb"
+    },
+    "expected/bootstrap.tsv": {
+      "bytes": 218761,
+      "sha256": "6e4a98122e8fb979450abf22db61d8993546f2c7fdefa76965b721a4e65ce676"
+    },
+    "expected/cv_folds.tsv": {
+      "bytes": 164816,
+      "sha256": "46bb9d1484f779cd31898fe089a0006f38a3225e6f885159abab38ad98869e7a"
+    },
+    "expected/cv_model_summary.tsv": {
+      "bytes": 1574,
+      "sha256": "aa483c992c05071341d34bbfe8dadfab99a706cc96783ed210cb37f4924508fc"
+    },
+    "expected/cv_repeats.tsv": {
+      "bytes": 15983,
+      "sha256": "90310659f37cdadf5666b0ad671fb2e95babbca60c4ab348868b432f508fb9d9"
+    },
+    "expected/cv_selection.json": {
+      "bytes": 1138,
+      "sha256": "a21d812d418ebae17042f2397dd702d63d6e214905622dda9ad3e3b86353587c"
+    },
+    "expected/feature_summary.tsv": {
+      "bytes": 2043,
+      "sha256": "e496edd9bbf31e7d86e5cbd676122ea625a99ad11d872ec0e7dff972bc63a074"
+    },
+    "expected/regional_summary.tsv": {
+      "bytes": 893,
+      "sha256": "d300a87eaf92be416557f5f0a4e1ef8f615fa052e97de2d8219cf1f7c7aff66f"
+    },
+    "expected/similarity_summary.tsv": {
+      "bytes": 300,
+      "sha256": "72d45913ac197ab01212aefe63f11d02efb5d5d6bd765fa8be85c0e7cfb453a6"
+    },
+    "expected/spearman.tsv": {
+      "bytes": 511,
+      "sha256": "f3724b1ffbd069b61bfae9adb8587a493daef8f99a7385f222d067a77c9edf22"
+    },
+    "features_raw.tsv": {
+      "bytes": 98579,
+      "sha256": "951934d84131926be661c6685e7a88886a6d7eec95009ae3315c240093bd4b76"
+    },
+    "pair_distance.tsv": {
+      "bytes": 8812419,
+      "sha256": "bc489f1113b6c2f3e0882d4425661c035237e6923ea1bcdd9bec9bead656f883"
+    },
+    "settings.json": {
+      "bytes": 20552,
+      "sha256": "e0fe42c20affa2ff76a6a1de1e90eb95ecd3b2e95337e60a20614668d6d86516"
+    },
+    "similarity_main_800.npy": {
+      "bytes": 3016096,
+      "sha256": "5f3ace69f91312add2ef59d9e163c68c95984c1fd4f37063f221d2b760ae5098"
+    },
+    "station_ids.json": {
+      "bytes": 7985,
+      "sha256": "89327269c64fc407962f27cb1cd7f251c4f3874c8aa4956de3959162bf85e5c2"
+    }
+  }
+}
