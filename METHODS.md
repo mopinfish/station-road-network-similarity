@@ -1,6 +1,6 @@
 # Saved input supplement and transformation methods
 
-This supplement supplies adopted classification decisions and reference inputs for the accompanying numerical database. It does not change any analysis result. The executable numerical workflow starts from saved road indicators. Road-network extraction code and the original OSM history are not distributed here; this document describes those upstream transformations and is not an executable end-to-end reproduction claim.
+This supplement supplies adopted classification decisions and reference inputs for the accompanying numerical database. It does not change any analysis result. The published v0.1.1 numerical workflow starts from saved road indicators; the v0.2.0 extension described below adds executable measurement from saved road reach/fragments. Raw OSM acquisition, road simplification, origin selection and reach extraction remain upstream descriptions, not an executable end-to-end reproduction claim. Original OSM history is not distributed here.
 
 ## Inputs and their identity
 
@@ -46,6 +46,12 @@ For those structure candidates, basic removal deletes park_path; the additional 
 
 Use the union of the supplied TMU polygons and test whether it covers each station representative point, including the boundary. The adopted 614-station population includes 44 inside stations. The `inside` column in the numerical dataset is this classification; it is not a classification by the road origin. Do not reinterpret pairs of inside stations as exclusively pairs within one district. Non-proximity filtering removes pairs, not these stations or their memberships.
 
-## Scope of the proposed machine-readable offer
+## Scope of the machine-readable disclosure
 
-The numerical database, these saved additional inputs and classification decisions, and this UTF-8 methods description are the proposed disclosure materials for ODbL §4.6. The numerical tables provide the entire selected numerical database; the methods and additional contents address the upstream transformations. This statement describes a proposed release structure, not legal certification or a claim that the upstream executable workflow is included. Third-party contents retain the separate conditions in SOURCE_NOTICES.md; no blanket MIT or ODbL relicensing of the TMU source is asserted. The release must identify its exact manifest and approved files before distribution.
+The numerical database, these saved additional inputs and classification decisions, and this UTF-8 methods description are the disclosure materials for ODbL §4.6. The numerical tables provide the entire selected numerical database; the methods and additional contents address the upstream transformations. This statement describes the release structure, not legal certification or a claim that the upstream acquisition/extraction executable workflow is included. Third-party contents retain the separate conditions in SOURCE_NOTICES.md; no blanket MIT or ODbL relicensing of the TMU source is asserted. The release manifest identifies the exact selected files.
+
+## Saved-road measurement extension
+
+The new `paper1.road_measurement` implementation begins with saved reach/fragments, parent-segment geometries and fixed road origins. It restores artificial boundary/origin nodes and computes indicators on the resulting auxiliary graph. It does not reacquire OSM, simplify roads, select origins or derive new reach intervals. Expected indicators are read only by the separate validation process, not by this calculation.
+
+Saved real-node and fragment iteration order is retained. Complete-parent metric inputs are read from the saved reach ledger; sums and standard-library/NetworkX operations use the adopted environment. All 615 fixed road records at 600, 800 and 1,000 m (71,955 cells, including missingness) match exactly as parsed numeric values. Missing reasons and graph invariants also match. The newly measured 800 m indicators pass the unchanged main-analysis Gate D (1e-12 numerical tolerances and exact ordered top-5/10/20 candidates for main and Clip). The 611-station selection population, 614-station fit/main population, fixed eight features and 43 affected Clip station IDs are preserved. The 600/1,000 m input and range-specific fit checks also pass; other sensitivity analyses were not rerun.

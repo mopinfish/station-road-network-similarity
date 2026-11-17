@@ -20,7 +20,7 @@ Station data source: [駅データ.jp](https://www.ekidata.jp/dl/?p=1), [terms](
 
 Regional data source: 東京都立大学 災害復興GISデータアーカイブ, [Tokyo land readjustment GeoJSON](https://masumura.ues.tmu.ac.jp/dr_gis/download/gke_landreadjustment_tokyo_json/), [terms](https://masumura.ues.tmu.ac.jp/dr_gis/termsofconditions/). Preserve the required source attribution and any applicable individual dataset instructions; do not apply the code's MIT license to third-party data automatically.
 
-The selected files, rights notices, destination and version were approved for this release. The release includes only the selected files listed in `manifest.json`.
+For the published v0.1.1 baseline, the selected files, rights notices, destination and version were approved for release. The road-measurement extension is identified separately as `paper1-v0.2.0`. Each package includes only the files selected in its manifest.
 
 ## Verification and provenance records
 
@@ -29,3 +29,9 @@ The release manifest identifies selected package files by size and SHA256. Priva
 ## Concrete disclosure package
 
 The supplement preserves 1,545 adopted structural park classifications, five adopted area decisions and two retained-area references, 615 original station groups with saved representative coordinates, and the exact 69-feature TMU input. Counts describe saved material, not new analysis. `METHODS.md` covers the upstream transformations and the 39-to-29-to-8 indicator procedure; it is not a road-generation executable. The selected numerical database, methods and additional contents are provided together as the ODbL disclosure package. Copyright and conditions over third-party contents remain separate.
+
+## Saved-road measurement extension: paper1-v0.2.0
+
+This version separately packages the 615 adopted saved road structures, reach/fragments and road origins for measurement at 600, 800 and 1,000 m. `road_data.json` identifies the archive and its manifest by SHA256; its URL is fixed to the `paper1-v0.2.0` Release asset. The archive carries ODbL 1.0 notices, per-file conditions and a standalone methods document with a fixed v0.1.1 upstream-method link. Road origins are points on the network selected using station representative points. Station group correspondence and offsets are provided separately in `data/road_measurement/station_map.tsv` under the original station provider conditions; they are not part of the road archive.
+
+This extension measures saved inputs and does not retrieve a new OSM snapshot, regenerate extraction reach, or alter the adopted station groups. The archive notice revision preserves all 615 compressed structures and the origins/definition bytes used for numerical verification. Full verification status is reported in `VERIFICATION.md`; the release manifest identifies the exact selected package.

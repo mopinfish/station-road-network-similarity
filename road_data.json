@@ -1,0 +1,10 @@
+{
+  "format": "road-download-v1",
+  "version": "road_measurement_v1",
+  "root": "road_measurement_v1",
+  "url": "https://github.com/mopinfish/station-road-network-similarity/releases/download/paper1-v0.2.0/road_measurement_v1.tar.gz",
+  "bytes": 247065694,
+  "sha256": "df803d38b3681915fbbb3b518f58e4aaef0b82a00b7582df1af9f867dc825a19",
+  "manifest_sha256": "5228e69a403d6fa952287fe9d321dd8af6f0f4d1e8d350536565a33836915d6b",
+  "publication_status": "fixed Release asset configured for paper1-v0.2.0; the fetcher checks size and SHA256 after retrieval"
+}

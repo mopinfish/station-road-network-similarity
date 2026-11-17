@@ -1,5 +1,9 @@
 # Change log
 
+## paper1-v0.2.0 — 2026-11-17
+
+Add a fixed-archive fetcher, a self-contained 39-indicator measurement implementation from saved road reach/fragments, and a small JSON-to-main-input adapter with executable full-cohort instructions. Complete the 615-record, three-range comparison and unchanged main downstream verification. Keep station correspondence separate from the ODbL road archive; provide standalone archive methods and per-file conditions. Pin the separate road archive to the paper1-v0.2.0 Release asset with its fixed size and SHA256. Existing published versions and scientific inputs remain unchanged.
+
 ## paper1-v0.1.1 — 2026-11-16
 
 Restore the original CRLF bytes in 23 TSV files that Git normalized to LF in paper1-v0.1.0. Numerical values, algorithms and expected results are unchanged. Add `.gitattributes` to preserve exact file bytes on commit and checkout. Version 0.1.0 has manifest mismatches for these files and should not be used for byte-level reproduction; its tag remains unchanged.
